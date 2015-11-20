@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<div class="container">
+    <div class="jumbotron" style="margin-top: 100px;">
+        {% if first_deploy %}
+
+        <h2><small>First deploy</small><br />{{ first_deploy }}</h2>
+
+        <h2><small>Latest deploy</small><br />{{ latest_deploy }}</h2>
+
+        <h2><small>Application life span</small><br />{{ life_span }}</h2>
+
+        {% else %}
+        <h1>This application has never been deployed :(</h1>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

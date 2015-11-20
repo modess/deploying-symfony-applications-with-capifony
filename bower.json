@@ -1,0 +1,6 @@
+{
+  "name": "deploying-symfony-applications-with-capifony",
+  "dependencies": {
+    "bootstrap": "3.3.5"
+  }
+}
