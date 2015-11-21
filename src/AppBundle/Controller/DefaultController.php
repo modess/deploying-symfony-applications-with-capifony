@@ -39,7 +39,8 @@ class DefaultController extends Controller
             'first_deploy'  => $firstDeploy,
             'latest_deploy' => $latestDeploy,
             'life_span'     => $lifeSpan,
-            'page_views'    => $pageViews
+            'page_views'    => $pageViews,
+            'environment'   => $this->get('kernel')->getEnvironment(),
         ));
     }
 }
