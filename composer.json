@@ -1,5 +1,5 @@
 {
-    "name": "niklas/.",
+    "name": "deploying-symfony-applications-with-capifony",
     "license": "proprietary",
     "type": "project",
     "autoload": {
