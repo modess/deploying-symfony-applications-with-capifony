@@ -24,6 +24,6 @@ class Version20151121041532 extends AbstractMigration
      */
     public function down(Schema $schema)
     {
-        $schema->dropTable('users');
+        $schema->dropTable('page_views');
     }
 }
